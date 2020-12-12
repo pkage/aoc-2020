@@ -1,0 +1,26 @@
+ClrHome
+Disp "Solving part 1...","A: "
+25->A
+Lbl 1
+A+1->A
+Output(2,4,A
+
+
+A-25->I
+Lbl 1I
+If I>A:Goto 2
+Output(3,4,I
+A-25->J
+Lbl 1J
+If J>A:Goto 1L
+
+
+If L1(I)+L1(J)=L1(A):Goto 1
+J+1->J
+Goto 1J
+Lbl 1L
+I+1->I
+Goto 1I
+
+Lbl 2
+Disp "Q1 Ans:",L1(A)
